@@ -6,14 +6,12 @@ public class Run {
 
 
     	
-    	
-        // Lógica do OR
-        double[][] inputs = {
-            new double[]{0, 0}, // output: 0
-            new double[]{0, 1}, // output: 0
-            new double[]{1, 0}, // output: 0
-            new double[]{1, 1}  // output: 1
-        };
+    	double[][] inputs = {
+            new double[]{0, 0, 1}, // output: 0
+            new double[]{0, 1, 0}, // output: 0
+            new double[]{1, 0, 0}, // output: 0
+            new double[]{1, 1, 1}  // output: 1
+            };
 
         double[] desired = { 0, 0, 0, 1 };
 

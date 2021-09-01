@@ -14,9 +14,9 @@ public class RedeNeural {
 
         this.iterations = iterations;
 
-        this.weights = new double[training_sets[0].length];
+       weights = new double[training_sets[0].length];
 
-        this.initWeights();
+       initWeights();
 
     }
 
@@ -24,7 +24,7 @@ public class RedeNeural {
 
         for(int i = 0; i < this.weights.length; i++) {
 
-            this.weights[i] = Math.random();
+            weights[i] = Math.random();
 
             //System.out.println("w: " + this.weights[i]);
 
